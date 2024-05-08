@@ -27,7 +27,7 @@ class MessagesController < ApplicationController
  
  
 =======
-  def
+  def message_params
     @message = Message.new
     @room = Room.find(params[:room_id])
   end
